@@ -8,3 +8,9 @@ variable "region" {
   description = "Current AWS region"
   default     = "us-east-2"
 }
+
+variable "keep_lock_tables" {
+  type = bool
+  default = true
+}
+
